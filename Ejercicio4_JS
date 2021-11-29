@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Ejercicio 4</title>
+    <style>
+        button {
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    border-style: round;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out;
+}
+    
+  button:hover {
+    font-size: large;
+    height: 46px;
+    border-radius: 20px;
+    border-style: round;
+    background-color: rgb(218, 235, 142);
+}</style>
+</head>
+<body>
+    <button onclick="alert('Ha pulsado el botón')">Pulse aquí</button>
+</body>
+
+</html>
